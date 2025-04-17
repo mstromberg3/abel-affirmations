@@ -26,8 +26,8 @@ img {
 
 .affirmation {
     width: 75vw;
-    corner-radius: 40px;
-    
+    height: auto;
+    border-radius: 35px;
 }
 
 h1 {
