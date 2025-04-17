@@ -1,0 +1,93 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 25vh 25vw;
+    height: 100vh;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+}
+
+.affirmation {
+    height:50vh;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+    opacity: 0;
+}
+
+.fade-out {
+    opacity: 1;
+    animation-name:card;
+    animation-duration: 1s;
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name:card;
+    animation-delay:0.5s;
+}
+
+@keyframes card {
+    0% {
+    }
+
+    25% {
+        transform: rotateY(90deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    75% {
+        transform: rotateY(270deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+button {
+    display: block;
+    background-color: darkblue;
+    border: solid;
+    border-color: white;
+    padding: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
