@@ -73,3 +73,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+(prefers-color-scheme: dark) {
+    * {background-color:black;}
+    h1 {color:white;}
+}
