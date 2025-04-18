@@ -17,7 +17,8 @@ let getAffirmation = () => {
     affirmationContainer.classList.remove("fade-out");
     const randomNumber = Math.floor(Math.random() * 5);
     const newVideo = videos[randomNumber];
-    affirmationContainer.innerHTML = "<img src='" + newVideo + "' class='affirmation'/>";
+    affirmationContainer.innerHTML = "<video width='240' height='320' autoplay>
+  <source src=" + newVideo + "type='video/mp4'>Your browser does not support this video</video>";
     affirmationContainer.classList.add("fade-in");
     console.log(randomNumber);
 }
