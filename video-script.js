@@ -8,7 +8,7 @@ const videos = [];
 let i = 0;
 
 while (i < 4) {
-    videos[i] = ("images/Layer" + (i + 2) + ".png");
+    videos[i] = ("images/vid_" + (i + 1) + ".mov");
     i++;
 }
 
