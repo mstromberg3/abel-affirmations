@@ -7,7 +7,7 @@ const videos = [];
 // loop to add each video to array
 let i = 0;
 
-while (i < 4) {
+while (i < 5) {
     videos[i] = ("images/vid_" + (i + 1) + ".mov");
     i++;
 }
@@ -15,7 +15,7 @@ while (i < 4) {
 // get a random number and return that in array
 let getAffirmation = () => {
     affirmationContainer.classList.remove("fade-out");
-    const randomNumber = Math.floor(Math.random() * 4);
+    const randomNumber = Math.floor(Math.random() * 5);
     const newVideo = videos[randomNumber];
     affirmationContainer.innerHTML = "<img src='" + newVideo + "' class='affirmation'/>";
     affirmationContainer.classList.add("fade-in");
