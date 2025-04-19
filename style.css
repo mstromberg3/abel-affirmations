@@ -18,12 +18,12 @@ h1 {
 
 p {
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 400;
     text-align: center;
     word-wrap: break-word;
     line-height: 35px;
-    opacity: 0;
+    opacity: 1;
 }
 
 .fade-out {
@@ -77,4 +77,5 @@ button {
 @media (prefers-color-scheme: dark) {
     * {background-color:black;}
     h1 {color:white;}
+    p {color: white;}
 }
