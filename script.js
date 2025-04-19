@@ -14,13 +14,13 @@ while (i < 25) {
 
 // get a random number and return that in array
 let getAffirmation = () => {
-    affirmationContainer.classList.remove("fade-out");
+    affirmationContainer.classList.remove("card");
+    console.log(affirmationContainer.classList);
     const randomNumber = Math.floor(Math.random() * 25);
     const newImage = images[randomNumber];
-    affirmationContainer.innerHTML = "<img src='" + newImage + "' class='affirmation'/>";
-    affirmationContainer.classList.add("fade-in");
-    console.log(randomNumber);
+    affirmationContainer.innerHTML = "<img src='" + newImage + "' class='affirmation' />";
+    affirmationContainer.classList.add("card");
 }
 
-btn.addEventListener("click", getAffirmation);
+//btn.addEventListener("click", getAffirmation);
 getAffirmation();
