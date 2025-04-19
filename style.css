@@ -21,9 +21,7 @@ p {
     color: #000000;
     font-weight: 400;
     text-align: center;
-    word-wrap: break-word;
     line-height: 35px;
-    opacity: 1;
 }
 
 .fade-out {
