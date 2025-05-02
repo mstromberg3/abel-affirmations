@@ -74,12 +74,12 @@ button {
     cursor: pointer;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     * {background-color:black;}
     h1 {color:white;}
     p {color: white;}
 }
-
+*/
 @media screen and (min-width:900px) {
     .video-affirmation {
         max-height: 65vh
