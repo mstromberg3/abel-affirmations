@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: "background.png";
+    background-image: url("background.png");
 }
 
 .affirmation {
