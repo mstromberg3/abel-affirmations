@@ -2,7 +2,7 @@ const affirmationContainer = document.getElementById("audio-affirmation");
 const btn = document.getElementById("btn");
 
 // Create a list of the audio clips
-const clips = ["audio/10131.mp3", "audio/10761.mp3", "audio/22351.mp3", "audio/22371.mp3", "audio/22372.mp3", "audio/24411.mp3", "audio/24412.mp3", "audio/24421.mp3", "audio/24441.mp3", "audio/24451.mp3", "audio/24452.mp3", "audio/24461.mp3", "audio/24462.mp3", "audio/25031.mp3", "audio/34671.mp3"];
+const clips = ["audio/101311.mp3", "audio/10761.mp3", "audio/22351.mp3", "audio/22371.mp3", "audio/22372.mp3", "audio/24411.mp3", "audio/24412.mp3", "audio/24421.mp3", "audio/24441.mp3", "audio/24451.mp3", "audio/24452.mp3", "audio/24461.mp3", "audio/24462.mp3", "audio/25031.mp3", "audio/34671.mp3"];
 
 // get a random number and return that in array
 let getAffirmation = () => {
