@@ -1,4 +1,4 @@
-const COUNT_URL = "https://api.counterapi.dev/v1";
+const COUNT_URL = "https://api.countapi.xyz";
 const NAMESPACE = "mstromberg3.github.io";
 const KEY = "7bf65b18-3b38-11f0-9fe2-0242ac120002";
 
