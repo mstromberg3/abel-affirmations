@@ -1,17 +1,17 @@
-const COUNT_URL = "https://api.countapi.xyz";
+const COUNT_URL = "https://api.counterapi.dev/v1";
 const NAMESPACE = "mstromberg3.github.io";
-const KEY = "7bf65b18-3b38-11f0-9fe2-0242ac120002";
+const KEY = "CountingTheVisits";
 
 const counter = document.querySelectorAll('span');
 
 const getCount = async () => {
-    const response = await fetch(`${COUNT_URL}/get/${NAMESPACE}/${KEY}`);
+    const response = await fetch(`${COUNT_URL}/${NAMESPACE}/${KEY}`);
     const data = await response.json();
     setValue(data.value);
 };
 
 const incrementCount = async () => {
-    const response = await fetch(`${COUNT_URL}/hit/${NAMESPACE}/${KEY}`);
+    const response = await fetch(`${COUNT_URL}/${NAMESPACE}/${KEY}/up`);
     const data = await response.json();
     setValue(data.value);
 };
