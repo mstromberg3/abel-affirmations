@@ -17,7 +17,7 @@ const incrementCount = async () => {
 };
 
 const setValue = (num) => {
-    var str = num.toString().padStart(6, "0");
+    var str = num.toString().padStart(4, "0");
     for (let index = 0; index < str.length; index++) {
         const element = str[index];
         counter[index].innerHTML = element;
