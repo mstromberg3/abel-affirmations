@@ -117,3 +117,45 @@ a {
     }
     h1 {margin:50px;}
 }
+
+
+/* Counter styling */
+
+iframe {
+    min-width:100%;
+    border:none;
+    overflow-y:hidden;
+    background-color:none;
+}
+
+.count-body {
+    overflow-y:hidden;
+    background:none;
+    color: rebeccapurple;
+    font-size: 24px;
+}
+
+.count-me {
+    display: inline-block;
+    padding: 10px 10px 6px;
+    border-radius: 6px;
+    background: white;
+    margin: 5px 5px;
+    font-size: 2rem;
+    overflow-y: hidden;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+
+.message {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    overflow-y: hidden;
+    font-weight:600;
+}
